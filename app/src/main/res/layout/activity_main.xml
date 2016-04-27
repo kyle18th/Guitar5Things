@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="cn.studyjams.s1.sj53.tangkai.MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:background="@drawable/guitar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:text="源流与发展"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="0dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:onClick="btn1"/>
+
+            <Button
+                android:text="吉他的分类"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="0dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:onClick="btn2"/>
+
+            <Button
+                android:text="吉他的构造"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="0dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:onClick="btn3"/>
+
+            <Button
+                android:text="表演风格"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="0dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:onClick="btn4"/>
+
+            <Button
+                android:text="技巧"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="0dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:onClick="btn5"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
