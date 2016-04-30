@@ -4,12 +4,6 @@
       tools:context="cn.studyjams.s1.sj53.tangkai.MainActivity">
 
     <item
-        android:id="@+id/action_feedback"
-        android:orderInCategory="100"
-        android:title="@string/action_feedback"
-        app:showAsAction="never"/>
-
-    <item
         android:id="@+id/action_about"
         android:orderInCategory="100"
         android:title="@string/action_about"
