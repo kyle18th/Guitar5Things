@@ -8,65 +8,55 @@
     android:fitsSystemWindows="true"
     tools:context="cn.studyjams.s1.sj53.tangkai.MainActivity">
 
-    <include layout="@layout/toolbar"/>
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
 
-    <RelativeLayout
-        android:background="@drawable/guitar"
+        <include layout="@layout/toolbar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
+        <Button
+            style="@style/Button"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:onClick="development"
+            android:text="@string/title_activity_development"/>
 
-            <Button
-                android:text="源流与发展"
-                android:layout_width="@dimen/button_width"
-                android:layout_height="0dp"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:onClick="btn1"/>
+        <Button
+            style="@style/Button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="吉他的分类"/>
 
-            <Button
-                android:text="吉他的分类"
-                android:layout_width="@dimen/button_width"
-                android:layout_height="0dp"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:onClick="btn2"/>
+        <Button
+            style="@style/Button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="吉他的构造"/>
 
-            <Button
-                android:text="吉他的构造"
-                android:layout_width="@dimen/button_width"
-                android:layout_height="0dp"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:onClick="btn3"/>
+        <Button
+            style="@style/Button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="表演风格"/>
 
-            <Button
-                android:text="表演风格"
-                android:layout_width="@dimen/button_width"
-                android:layout_height="0dp"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:onClick="btn4"/>
+        <Button
+            style="@style/Button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:onClick="btn5"
+            android:text="技巧"/>
 
-            <Button
-                android:text="技巧"
-                android:layout_width="@dimen/button_width"
-                android:layout_height="0dp"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:onClick="btn5"/>
-
-        </LinearLayout>
-
-    </RelativeLayout>
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
