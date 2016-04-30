@@ -33,30 +33,55 @@ public class MainActivity extends BaseActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_about) {
-            startActivity(new Intent(this, AboutActivity.class));
+            startActivity(AboutActivity.class);
             return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
+    /***
+     * Start  DevelopmentActivity
+     *
+     * @param view view
+     */
     public void development(View view) {
-        startActivity(new Intent(this, DevelopmentActivity.class));
+        startActivity(DevelopmentActivity.class);
     }
 
+    /***
+     * Start  CategoryActivity
+     *
+     * @param view view
+     */
     public void category(View view) {
-        startActivity(new Intent(this, CategoryActivity.class));
+        startActivity(CategoryActivity.class);
     }
 
+    /***
+     * Start  StructureActivity
+     *
+     * @param view view
+     */
     public void structure(View view) {
-        startActivity(new Intent(this, StructureActivity.class));
+        startActivity(StructureActivity.class);
     }
 
+    /***
+     * Start  StyleActivity
+     *
+     * @param view view
+     */
     public void style(View view) {
-        startActivity(new Intent(this, StyleActivity.class));
+        startActivity(StyleActivity.class);
     }
 
+    /***
+     * Start  SkillActivity
+     *
+     * @param view view
+     */
     public void skill(View view) {
-        startActivity(new Intent(this, SkillActivity.class));
+        startActivity(SkillActivity.class);
     }
 
 }
