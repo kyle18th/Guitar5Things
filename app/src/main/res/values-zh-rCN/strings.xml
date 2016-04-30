@@ -2,6 +2,6 @@
 
     <string name="action_about">关于</string>
     <string name="title_activity_about">关于</string>
-    <string name="content_about">Guitar 5 Things，是本人参加Studyjams课程结业所做的App，主要介绍了关于吉他的五个知识。</string>
+    <string name="content_activity_about">Guitar 5 Things，是本人参加Studyjams课程结业所做的App，主要介绍了关于吉他的五个知识。</string>
 
 </resources>

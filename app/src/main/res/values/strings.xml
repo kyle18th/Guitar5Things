@@ -8,14 +8,21 @@
     <string name="title_activity_style">表演风格</string>
     <string name="title_activity_skill">技巧</string>
     <string name="title_activity_about">About</string>
-    <string name="development_title_1">语词流传</string>
-    <string name="development_content_1">
-        吉他（结他）一词，来自英语 Guitar 的音译。而自古至今，即便是使用不同的语言文字的国家，对于这个乐器的称呼，都有相似的发音，例如：西班牙语，Guitarra；法语，Guitare；德语，Gitarre；意大利语，Chitarra。而“tar”这个字根，则是出自梵语，在波斯（今伊朗）及北印度一带，有“弦”的意义；后来这个语词的流传，又经历了古希腊的 kithara (cithara)，阿拉伯语的 gitara，以及古法语的 guiterne，最后才演变为现代英语：Guitar。而这样的转变，也让人感到疑惑，因为在乐器的分类中，古希腊的 kithara (cithara) 是属于理拉琴族，吉他则是归类在鲁特琴族。因此，关于吉他这个语词的来源，至今仍是没有定论的。
+    <string name="title_development_1">语词流传</string>
+    <string name="content_activity_about">Guitar 5 Things，是本人参加Studyjams课程结业所做的App，主要介绍了关于吉他的五个知识，内容来自维基百科。</string>
+    <string name="content_development_1">
+        吉他（结他）一词，来自英语 Guitar 的音译。\n\n而自古至今，即便是使用不同的语言文字的国家，对于这个乐器的称呼，都有相似的发音，例如：西班牙语，Guitarra；法语，Guitare；德语，Gitarre；意大利语，Chitarra。\n\n而“tar”这个字根，则是出自梵语，在波斯（今伊朗）及北印度一带，有“弦”的意义；后来这个语词的流传，又经历了古希腊的 kithara (cithara)，阿拉伯语的 gitara，以及古法语的 guiterne，最后才演变为现代英语：Guitar。\n\n而这样的转变，也让人感到疑惑，因为在乐器的分类中，古希腊的 kithara (cithara) 是属于理拉琴族，吉他则是归类在鲁特琴族。因此，关于吉他这个语词的来源，至今仍是没有定论的。
     </string>
-    <string name="development_title_2">追本溯源</string>
-    <string name="development_content_2">
-        吉他虽然是一种古老的弹拨乐器，但关于它的起源却是众说纷云，目前所知道的说法有三种：第一种就是前面所描述的，源自欧洲古希腊的西塞拉琴 kithara (Cithara)。第二种，是美索不达米亚平原的长颈鲁特琴演变说。第三种则认为，吉他是演变自古埃及的哥普特琉特琴 (Copric Lute)，由当时的阿拉伯－摩尔人传入欧洲，并逐渐演变成的今天的吉他。早期有关音乐的文献，大部分都已散佚，因此在没有确切证据的情况下，吉他的起源仍是没有结论，但它久远的历史，则是显而易见的。在埃及的许多考古资料中，曾经发现四种很像鲁特琴的乐器，因此就有学者认为，这种乐器就是吉他的前身。早在纪元前一世纪左右，也有学者在今印度、巴基斯坦附近的石雕上，发现貌似吉他的鲁特琴，而这种鲁特琴又比埃及鲁特琴还要像吉他，因此也有学者认为，吉他便是经由印、巴一带流传到欧洲。
+    <string name="title_development_2">追本溯源</string>
+    <string name="content_development_2">
+        吉他虽然是一种古老的弹拨乐器，但关于它的起源却是众说纷云，目前所知道的说法有三种：\n\n第一种就是前面所描述的，源自欧洲古希腊的西塞拉琴 kithara (Cithara)。\n\n第二种，是美索不达米亚平原的长颈鲁特琴演变说。\n\n第三种则认为，吉他是演变自古埃及的哥普特琉特琴 (Copric Lute)，由当时的阿拉伯－摩尔人传入欧洲，并逐渐演变成的今天的吉他。\n\n早期有关音乐的文献，大部分都已散佚，因此在没有确切证据的情况下，吉他的起源仍是没有结论，但它久远的历史，则是显而易见的。在埃及的许多考古资料中，曾经发现四种很像鲁特琴的乐器，因此就有学者认为，这种乐器就是吉他的前身。\n\n早在纪元前一世纪左右，也有学者在今印度、巴基斯坦附近的石雕上，发现貌似吉他的鲁特琴，而这种鲁特琴又比埃及鲁特琴还要像吉他，因此也有学者认为，吉他便是经由印、巴一带流传到欧洲。
     </string>
-    <string name="content_about">Guitar 5 Things，是本人参加Studyjams课程结业所做的App，主要介绍了关于吉他的五个知识。</string>
+    <string name="content_category">
+        吉他可概略分为两大类：其一，是历史悠久，以木制共鸣箱扩音的木吉他。其二，是发明于二十世纪，以扩大机扩音的电吉他。\n\n木吉他常被用于古典音乐、民间音乐及流行音乐的演奏或伴奏。\n\n电吉他则是在摇滚、蓝调、爵士及流行音乐中，占有其特殊的地位。而电吉他的发明与问世，对西方流行文化及音乐发展也有很重要的影响。\n\n然而，随着电子科技与工艺技术的进步与结合，吉他的面貌及内涵，又有了更多的转变。现代的吉他，依据其构造方式、发声原理、功能取向的不同，又可以再细分。\n\n夏威夷吉他，包括夏威夷吉他和电吉他，定弦和姿势弹奏方法与西班牙吉他完全不同，以弹奏旋律为主，声音优美。\n\n西班牙吉他，分为三类：古典吉他、民谣吉他、弗拉门戈。\n\n电吉他，第一把电吉他在木吉他的基础上加装拾音器来扩大音量，后来都采用实心吉他，是现代流行音乐，摇滚乐中重要的伴奏独奏乐器。
+    </string>
+    <string name="title_structure_1">木吉他</string>
+    <string name="content_structure_1">现今常见的木吉他，普遍都是六条或十二条琴弦，但亦有四弦、八弦、十弦的型式。\n\n其整体由“琴头”、“琴颈”、“琴身”三大部分所组成。而又可细分为：琴头、弦钮、琴身、面板、琴桥、下弦枕、弦钉、响孔。</string>
+    <string name="title_structure_2">电吉他</string>
+    <string name="content_structure_2">是运用电磁学原理，切割拾音器上磁感线引起不同的频率的电流，再利用音箱还原电流的电子乐器。\n\n其主要由琴头、琴颈、琴身、琴桥、拾音器组成。</string>
 
 </resources>

@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
-            android:text="@string/content_about"/>
+            android:text="@string/content_activity_about"/>
 
     </android.support.v4.widget.NestedScrollView>
 
