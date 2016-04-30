@@ -14,12 +14,49 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".DevelopmentActivity"
             android:label="@string/title_activity_development"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.studyjams.s1.sj53.tangkai.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".CategoryActivity"
+            android:label="@string/title_activity_category"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.studyjams.s1.sj53.tangkai.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".StructureActivity"
+            android:label="@string/title_activity_structure"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.studyjams.s1.sj53.tangkai.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".StyleActivity"
+            android:label="@string/title_activity_style"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cn.studyjams.s1.sj53.tangkai.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".SkillActivity"
+            android:label="@string/title_activity_skill"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

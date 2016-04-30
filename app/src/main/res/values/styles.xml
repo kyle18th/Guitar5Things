@@ -23,4 +23,9 @@
         <item name="android:layout_marginBottom">@dimen/button_horizontal_margin</item>
     </style>
 
+    <style name="Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
 </resources>

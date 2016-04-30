@@ -36,26 +36,29 @@
             style="@style/Button"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:text="吉他的分类"/>
+            android:onClick="category"
+            android:text="@string/title_activity_category"/>
 
         <Button
             style="@style/Button"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:text="吉他的构造"/>
+            android:onClick="structure"
+            android:text="@string/title_activity_structure"/>
 
         <Button
             style="@style/Button"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:text="表演风格"/>
+            android:onClick="style"
+            android:text="@string/title_activity_style"/>
 
         <Button
             style="@style/Button"
             android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
-            android:onClick="btn5"
-            android:text="技巧"/>
+            android:onClick="skill"
+            android:text="@string/title_activity_skill"/>
 
     </LinearLayout>
 

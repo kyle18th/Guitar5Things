@@ -31,7 +31,7 @@ public class MainActivity extends BaseActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_about) {
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -39,6 +39,22 @@ public class MainActivity extends BaseActivity {
 
     public void development(View view) {
         startActivity(new Intent(this, DevelopmentActivity.class));
+    }
+
+    public void category(View view) {
+        startActivity(new Intent(this, CategoryActivity.class));
+    }
+
+    public void structure(View view) {
+        startActivity(new Intent(this, StructureActivity.class));
+    }
+
+    public void style(View view) {
+        startActivity(new Intent(this, StyleActivity.class));
+    }
+
+    public void skill(View view) {
+        startActivity(new Intent(this, SkillActivity.class));
     }
 
 }
